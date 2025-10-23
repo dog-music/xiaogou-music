@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>小狗音乐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>🐶 小狗音乐</h1>
+
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="搜索歌曲或歌手..." autocomplete="off" />
+        <div class="buttons">
+          <button id="playAllBtn" title="播放全部">▶ 播放全部</button>
+          <button id="shuffleBtn" title="随机播放">🔀 随机播放</button>
+        </div>
+      </div>
+
+      <div id="musicList" class="music-list" aria-live="polite"></div>
+
+      <audio id="audioPlayer" controls preload="none"></audio>
+    </div>
+
+    <div class="right-panel">
+      <h2>🕒 近期播放</h2>
+      <ul id="historyList" class="history-list" aria-live="polite"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
