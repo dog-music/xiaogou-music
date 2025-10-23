@@ -9,8 +9,8 @@
 
 /* ========== 在此定义你的歌曲列表（修改 file 为你的 mp3 路径） ========== */
 const songs = [
-  { title: "That Girl", file: "https://cdn.jsdelivr.net/gh/dog-music/xiaogou-music/main/music/That Girl.mp3"},
-  { title: "QQ飞车手游", file: "https://cdn.jsdelivr.net/gh/dog-music/xiaogou-music/main/music/QQ飞车手游.mp3"}
+  { title: "That Girl", file: "https://cdn.jsdelivr.net/gh/dog-music/xiaogou-music/music/That Girl.mp3"},
+  { title: "QQ飞车手游", file: "https://cdn.jsdelivr.net/gh/dog-music/xiaogou-music/music/QQ飞车手游.mp3"}
 ];
 /* ======================================================================== */
 
